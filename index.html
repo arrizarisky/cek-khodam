@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cek Khodam Gratis</title>
+  <link href='/style.css' rel='stylesheet'>
+  <link rel="stylesheet" href="sweetalert2.min.css">
+</head>
+<body>
+  <div class="container-global">
+    <div class="container-box">
+      <h1 id="h1">Cek Khodam</h1>
+      <form id="khodamForm">
+        <label for="nameInput"></label>
+        <input type="text" id="nameInput" placeholder="Masukkan nama Anda" required>
+        <button type="submit">Cek Khodam</button>
+      </form>
+      <p id="header"></p>
+      <p id="khodamName"></p>
+      <div class="dotted">
+        <h1 id="result"></h1>
+      </div>
+      <p id="khodamAbility"></p>
+      <button id="resetButton" onclick="resetForm()" style="display: none;">Cek Khodam Kembali</button>
+    </div>
+  </div>
+
+  <script defer type="text/javascript" src="/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

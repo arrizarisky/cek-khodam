@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ 
+ body {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    background: linear-gradient(135deg, #074988, #000);
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #3DC2EC;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+input[type="text"]::placeholder {
+    color: #333;
+    text-align: center;
+    font-family: monospace;
+}
+
+button {
+    background-color: #3DC2EC;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    color: #333;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.dotted {
+    border: 2px dotted #333;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#header {
+    font-weight: 700;
+}
+
+#khodamName {
+    font-size: 20px;
+    color: #FFF455;
+}
+
+#khodamAbility {
+    margin-bottom: 20%;
+}
+/*
+
+
+
+#khodamName, #khodamAbility {
+    margin-top: 20px;
+}
+#resetButton {
+    margin-top: 20px;
+} */
+.container-global {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-box {
+    background: linear-gradient(135deg, #11274e, #0c0c0c) ;
+    padding: 15px;
+    border-radius: 20px;
+    border: black solid 3px;
+    box-shadow: 18px 18px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+
+#resetButton {
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    .container-box {
+        padding: 10px;
+    }
+    form {
+        flex-direction: column;
+    }
+    #resetButton {
+        padding: 5px 10px;
+        font-size: 0.1em;
+        margin-bottom: 20px;
+        font-weight: 300
+        ;
+    }
+    button {
+        padding: 5px 10px;
+        font-size: 0.1em;
+        margin-bottom: 20px;
+        font-weight: 300
+        ;
+    }
+}
