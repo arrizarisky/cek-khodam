@@ -166,10 +166,10 @@ button:hover {
         ;
     }
     button {
-        padding: 5px 10px;
-        font-size: 0.1em;
+        padding: 10px 15px;
+        font-size: 1rem;
         margin-bottom: 20px;
-        font-weight: 300
+        font-weight: 700
         ;
     }
 }

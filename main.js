@@ -1,6 +1,6 @@
 const khodams = [
     { name: "Pemadam Kebakaran", ability: "Mengendalikan api dan memiliki kekuatan besar" },
-    { name: "Nakhoda", ability: "Mengendalikan laut dan angin" },
+    { name: "Marinir", ability: "Mengendalikan laut dan angin" },
     { name: "Aquaman", ability: "Menguasai segala makhluk air dan magis" },
     { name: "Mbah Marijan", ability: "Melindungi gunung dan penghuninya" },
     { name: "Pupuk Urea", ability: "Memberikan kesuburan dan kemakmuran" },
