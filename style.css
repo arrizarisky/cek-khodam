@@ -51,6 +51,17 @@ button:hover {
     background-color: #0056b3;
 }
 
+footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFA62F;
+}
+
+footer p {
+    margin: 0;
+}
+
 #header {
     color: #FA7070;
 }
@@ -83,16 +94,6 @@ button:hover {
     margin-bottom: 20%;
     color: #FFF455;
 }
-/*
-
-
-
-#khodamName, #khodamAbility {
-    margin-top: 20px;
-}
-#resetButton {
-    margin-top: 20px;
-} */
 .container-global {
     display: flex;
     justify-content: center;
