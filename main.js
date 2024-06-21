@@ -1,14 +1,14 @@
 const khodams = [
-    { name: "Jin Ifrit", ability: "Mengendalikan api dan memiliki kekuatan besar" },
-    { name: "Ratu Pantai Selatan", ability: "Mengendalikan laut dan angin" },
-    { name: "Nyi Roro Kidul", ability: "Menguasai segala makhluk air dan magis" },
-    { name: "Sang Penunggu Gunung", ability: "Melindungi gunung dan penghuninya" },
-    { name: "Dewi Sri", ability: "Memberikan kesuburan dan kemakmuran" },
-    { name: "Mak Lampir", ability: "Mengendalikan ilmu hitam dan memiliki kekuatan gaib" },
-    { name: "Singa Barong", ability: "Menjaga dan melindungi harta" },
-    { name: "Pocong Penjaga", ability: "Menjaga tempat keramat dan memiliki kekuatan roh" },
-    { name: "Kuntilanak Merah", ability: "Menghantui dan menakuti musuh" },
-    { name: "Banaspati", ability: "Mengendalikan api dan roh jahat" }
+    { name: "Pemadam Kebakaran", ability: "Mengendalikan api dan memiliki kekuatan besar" },
+    { name: "Nakhoda", ability: "Mengendalikan laut dan angin" },
+    { name: "Aquaman", ability: "Menguasai segala makhluk air dan magis" },
+    { name: "Mbah Marijan", ability: "Melindungi gunung dan penghuninya" },
+    { name: "Pupuk Urea", ability: "Memberikan kesuburan dan kemakmuran" },
+    { name: "Pesulap Merah", ability: "Mengendalikan ilmu hitam dan memiliki kekuatan gaib" },
+    { name: "Amil Zakat", ability: "Menjaga dan melindungi harta" },
+    { name: "Asep Pamali", ability: "Menjaga tempat keramat dan memiliki kekuatan roh" },
+    { name: `${nameInput.value}`, ability: "Menghantui dan menakuti manusia" },
+    { name:"Gus Syamsudin", ability: "Mengendalikan api dan roh jahat" }
 ];
 
 function getRandomKhodam() {
