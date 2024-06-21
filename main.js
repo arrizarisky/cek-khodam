@@ -7,7 +7,7 @@ const khodams = [
     { name: "Pesulap Merah", ability: "Mengendalikan ilmu hitam dan memiliki kekuatan gaib" },
     { name: "Amil Zakat", ability: "Menjaga dan melindungi harta" },
     { name: "Asep Pamali", ability: "Menjaga tempat keramat dan memiliki kekuatan roh" },
-    { name: `${nameInput.value}`, ability: "Menghantui dan menakuti manusia" },
+    { name: "Sutris Ban dalam", ability: "Menghantui dan menakuti manusia" },
     { name:"Gus Syamsudin", ability: "Mengendalikan api dan roh jahat" }
 ];
 
