@@ -31,13 +31,19 @@ function cekKhodam(e) {
         alert("Masukkan nama Anda terlebih dahulu!");
         return;
     }
+    khodamName.textContent= "Loading"
+    khodamName.classList.add('loading');
+
     const khodam = getRandomKhodam();
-    header.innerText = `Khodam yang ada dalam diri`
-    namaUser.innerText = `${inputNama} :`;
-    khodamName.innerText = `✨${khodam.name}✨`;
-    ability.innerText = `${khodam.ability}`;
-    khodamForm.style.display = 'none';
-    resetButton.style.display = 'flex';
+    setTimeout(() => {
+        khodamName.classList.remove('loading');
+        header.innerText = `Khodam yang ada dalam diri`
+        namaUser.innerText = `${inputNama} :`;
+        khodamName.innerText = `✨${khodam.name}✨`;
+        ability.innerText = `${khodam.ability}`;
+        khodamForm.style.display = 'none';
+        resetButton.style.display = 'flex';
+    }, 5000)
 
 }
 function resetForm() {
